@@ -1,0 +1,37 @@
+<div class="container">
+  <div class="row">
+    <hgroup class="mb20">
+    <h1 class="text-center" style="padding: 30px 0 30px 0px;color: #337AB7;">BMV PROPERTY UK - LISTING PAGE 1</h1>
+    <h2 class="lead" ng-if="fullObject"><strong class="text-danger" ng-if="fullObject.totalResults">{{fullObject.totalResults}}</strong>
+     results were found for the search for <strong class="text-danger" ng-if="fullObject.q">Keyword: "{{fullObject.q}}"</strong>
+     <strong class="text-danger"><span ng-if="fullObject.exactTerms"> | Exact Terms : "{{fullObject.exactTerms}}"</span>
+     <span ng-if="fullObject.excludeTerms"> | Exclude Terms : "{{fullObject.excludeTerms}}"</span></strong>
+   </h2>               
+  </hgroup>
+<div class="loading" ng-show="loading"></div>
+    <section class="col-xs-12 col-sm-6 col-md-12 col-centered">
+    <article class="search-result row" ng-repeat="(key, value) in posts">
+      <div class="col-xs-12 col-sm-12 col-md-3">
+        <div ng-if="value.thumbnail">
+        <a href="http://bmvpropertyuk.com/payment-page.html" title="{{value.title}}" class="thumbnail"><img ng-src="{{value.thumbnail}}" style="height: 80px" /></a>
+      </div>
+      <div ng-if="!value.thumbnail"><p style="text-align:center">Image Not available</p></div>
+      </div>
+ 
+      <div class="col-xs-12 col-sm-12 col-md-9 excerpet">
+        <h3><a href="http://bmvpropertyuk.com/payment-page.html" title="">{{value.title}}</a></h3>
+        <!--p><a ng-href="{{value.link}}" style="color:green">{{value.link}}</a></p-->
+        <p>{{value.snippet}}</p>            
+      </div>
+      <span class="clearfix borda"></span>
+      <hr>
+    </article> 
+  </section>
+
+    <div class="text-center">
+    <ul class="pagination">
+      <li ng-repeat="i in getNumber(number) track by $index" ng-class="{'active': $index+1 == fullObject.page}"><a ng-if="fullObject" href="javascript:void(0);" ng-click="getdata($index+1, fullObject.q, fullObject.excludeTerms, fullObject.exactTerms, fullObject.dateRestrict, fullObject.perPage)">{{$index+1}}</a></li>
+    </ul>
+  </div>
+</div>
+</div>

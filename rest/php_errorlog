@@ -1,0 +1,262 @@
+[15-Aug-2018 06:27:09 CST6CDT] PHP Fatal error:  Uncaught Exception: Backend Error in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('20,000', '2', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[15-Aug-2018 06:32:55 CST6CDT] PHP Fatal error:  Uncaught Exception: Backend Error in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('30,000', '1', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[15-Aug-2018 06:36:18 CST6CDT] PHP Fatal error:  Uncaught Exception: Backend Error in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('30,000', '3', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[19-Sep-2018 09:00:49 CST6CDT] PHP Fatal error:  Uncaught Exception: Backend Error in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('30,000', '1', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[19-Sep-2018 09:00:57 CST6CDT] PHP Fatal error:  Uncaught Exception: Backend Error in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('30,000', '1', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[19-Sep-2018 09:01:07 CST6CDT] PHP Fatal error:  Uncaught Exception: Backend Error in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('30,000', '1', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[24-Oct-2018 13:48:43 CST6CDT] PHP Fatal error:  Uncaught Exception: Backend Error in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('20,000', '1', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[31-Oct-2018 10:29:31 CST6CDT] PHP Fatal error:  Uncaught Exception: Backend Error in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('20,000', '1', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[31-Oct-2018 10:29:39 CST6CDT] PHP Fatal error:  Uncaught Exception: Backend Error in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('20,000', '1', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[31-Oct-2018 10:31:26 CST6CDT] PHP Fatal error:  Uncaught Exception: Backend Error in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('20,000', '2', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[13-Nov-2018 07:55:49 CST6CDT] PHP Fatal error:  Uncaught Exception: Backend Error in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('20,000', '1', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[13-Nov-2018 07:55:56 CST6CDT] PHP Fatal error:  Uncaught Exception: Backend Error in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('20,000', '1', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[11-Sep-2019 04:12:41 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gmm78659_bmvsearchapp.emp_details' doesn't exist in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php:6
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php(6): PDO->query('SELECT live_tok...')
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php on line 6
+[12-Sep-2019 05:13:45 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gmm78659_bmvsearchapp.emp_details' doesn't exist in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php:6
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php(6): PDO->query('SELECT live_tok...')
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php on line 6
+[12-Sep-2019 05:19:09 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gmm78659_bmvsearchapp.emp_details' doesn't exist in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php:6
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php(6): PDO->query('SELECT live_tok...')
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php on line 6
+[12-Sep-2019 05:41:00 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gmm78659_bmvsearchapp.emp_details' doesn't exist in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php:6
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php(6): PDO->query('SELECT live_tok...')
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php on line 6
+[12-Sep-2019 06:01:08 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gmm78659_bmvsearchapp.emp_details' doesn't exist in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php:6
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php(6): PDO->query('SELECT live_tok...')
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php on line 6
+[12-Sep-2019 06:01:12 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'stupid' at line 1 in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/logout.php:5
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/logout.php(5): PDO->query('UPDATE emp_deta...')
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/logout.php on line 5
+[12-Sep-2019 06:01:23 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gmm78659_bmvsearchapp.emp_details' doesn't exist in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/login.php:8
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/login.php(8): PDO->query('SELECT username...')
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/login.php on line 8
+[12-Sep-2019 06:01:23 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'gmm78659_bmvsearchapp.emp_details' doesn't exist in /home/gmm78659/public_html/b' at line 1 in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php:6
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php(6): PDO->query('SELECT live_tok...')
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php on line 6
+[12-Sep-2019 06:01:40 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=<br />
+<b>Fatal error</b>:  Uncaught PDOException: SQLSTATE[42S02]: Base table ' at line 1 in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/logout.php:5
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/logout.php(5): PDO->query('UPDATE emp_deta...')
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/logout.php on line 5
+[12-Sep-2019 06:09:45 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gmm78659_bmvsearchapp.emp_details' doesn't exist in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php:6
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php(6): PDO->query('SELECT live_tok...')
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php on line 6
+[12-Sep-2019 06:09:47 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'stupid' at line 1 in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/logout.php:5
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/logout.php(5): PDO->query('UPDATE emp_deta...')
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/logout.php on line 5
+[12-Sep-2019 06:09:50 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gmm78659_bmvsearchapp.emp_details' doesn't exist in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/login.php:8
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/login.php(8): PDO->query('SELECT username...')
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/login.php on line 8
+[12-Sep-2019 06:09:51 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'gmm78659_bmvsearchapp.emp_details' doesn't exist in /home/gmm78659/public_html/b' at line 1 in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php:6
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php(6): PDO->query('SELECT live_tok...')
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php on line 6
+[12-Sep-2019 06:09:56 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gmm78659_bmvsearchapp.emp_details' doesn't exist in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php:6
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php(6): PDO->query('SELECT live_tok...')
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php on line 6
+[12-Sep-2019 06:10:13 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=<br />
+<b>Fatal error</b>:  Uncaught PDOException: SQLSTATE[42S02]: Base table ' at line 1 in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/logout.php:5
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/logout.php(5): PDO->query('UPDATE emp_deta...')
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/logout.php on line 5
+[12-Sep-2019 06:13:08 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'gmm78659_bmvsearchapp.emp_details' doesn't exist in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php:6
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php(6): PDO->query('SELECT live_tok...')
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/checkToken.php on line 6
+[13-Sep-2019 01:25:34 CST6CDT] PHP Fatal error:  Uncaught Exception: This API requires billing to be enabled on the project. Visit https://console.developers.google.com/billing?project=300948139898 to enable billing. in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('land for sale', '2', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[13-Sep-2019 01:25:44 CST6CDT] PHP Fatal error:  Uncaught Exception: This API requires billing to be enabled on the project. Visit https://console.developers.google.com/billing?project=300948139898 to enable billing. in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('', '1', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[13-Sep-2019 01:25:54 CST6CDT] PHP Fatal error:  Uncaught Exception: This API requires billing to be enabled on the project. Visit https://console.developers.google.com/billing?project=300948139898 to enable billing. in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('', '3', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[13-Sep-2019 01:25:54 CST6CDT] PHP Fatal error:  Uncaught Exception: This API requires billing to be enabled on the project. Visit https://console.developers.google.com/billing?project=300948139898 to enable billing. in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('', '4', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[13-Sep-2019 01:25:55 CST6CDT] PHP Fatal error:  Uncaught Exception: This API requires billing to be enabled on the project. Visit https://console.developers.google.com/billing?project=300948139898 to enable billing. in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('', '5', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[13-Sep-2019 01:25:55 CST6CDT] PHP Fatal error:  Uncaught Exception: This API requires billing to be enabled on the project. Visit https://console.developers.google.com/billing?project=300948139898 to enable billing. in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('', '6', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[13-Sep-2019 01:25:56 CST6CDT] PHP Fatal error:  Uncaught Exception: This API requires billing to be enabled on the project. Visit https://console.developers.google.com/billing?project=300948139898 to enable billing. in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('', '7', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[13-Sep-2019 01:25:57 CST6CDT] PHP Fatal error:  Uncaught Exception: This API requires billing to be enabled on the project. Visit https://console.developers.google.com/billing?project=300948139898 to enable billing. in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('', '9', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[13-Sep-2019 01:25:58 CST6CDT] PHP Fatal error:  Uncaught Exception: This API requires billing to be enabled on the project. Visit https://console.developers.google.com/billing?project=300948139898 to enable billing. in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('', '10', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[13-Sep-2019 01:32:54 CST6CDT] PHP Fatal error:  Uncaught Exception: This API requires billing to be enabled on the project. Visit https://console.developers.google.com/billing?project=300948139898 to enable billing. in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('land for sale', '1', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[13-Sep-2019 01:33:09 CST6CDT] PHP Fatal error:  Uncaught Exception: This API requires billing to be enabled on the project. Visit https://console.developers.google.com/billing?project=300948139898 to enable billing. in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('', '2', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[13-Sep-2019 01:33:18 CST6CDT] PHP Fatal error:  Uncaught Exception: This API requires billing to be enabled on the project. Visit https://console.developers.google.com/billing?project=300948139898 to enable billing. in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('', '1', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[13-Sep-2019 01:33:22 CST6CDT] PHP Fatal error:  Uncaught Exception: This API requires billing to be enabled on the project. Visit https://console.developers.google.com/billing?project=300948139898 to enable billing. in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('yolo', '1', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[13-Sep-2019 01:33:25 CST6CDT] PHP Fatal error:  Uncaught Exception: This API requires billing to be enabled on the project. Visit https://console.developers.google.com/billing?project=300948139898 to enable billing. in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('yolo', '1', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[13-Sep-2019 01:33:30 CST6CDT] PHP Fatal error:  Uncaught Exception: This API requires billing to be enabled on the project. Visit https://console.developers.google.com/billing?project=300948139898 to enable billing. in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('b', '1', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[13-Sep-2019 01:33:37 CST6CDT] PHP Fatal error:  Uncaught Exception: This API requires billing to be enabled on the project. Visit https://console.developers.google.com/billing?project=300948139898 to enable billing. in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('house', '1', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[13-Sep-2019 01:34:04 CST6CDT] PHP Fatal error:  Uncaught Exception: This API requires billing to be enabled on the project. Visit https://console.developers.google.com/billing?project=300948139898 to enable billing. in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('abcd', '1', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[13-Sep-2019 01:34:11 CST6CDT] PHP Fatal error:  Uncaught Exception: This API requires billing to be enabled on the project. Visit https://console.developers.google.com/billing?project=300948139898 to enable billing. in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('houses', '1', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[13-Sep-2019 01:36:52 CST6CDT] PHP Fatal error:  Uncaught Exception: This API requires billing to be enabled on the project. Visit https://console.developers.google.com/billing?project=300948139898 to enable billing. in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('a', '1', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[13-Sep-2019 01:36:55 CST6CDT] PHP Fatal error:  Uncaught Exception: This API requires billing to be enabled on the project. Visit https://console.developers.google.com/billing?project=300948139898 to enable billing. in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('a', '1', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[13-Sep-2019 01:36:58 CST6CDT] PHP Fatal error:  Uncaught Exception: This API requires billing to be enabled on the project. Visit https://console.developers.google.com/billing?project=300948139898 to enable billing. in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('a', '1', '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[13-Sep-2019 01:37:01 CST6CDT] PHP Fatal error:  Uncaught Exception: Invalid unsigned integer value: ''. in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('', '', '', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[13-Sep-2019 01:37:06 CST6CDT] PHP Fatal error:  Uncaught Exception: This API requires billing to be enabled on the project. Visit https://console.developers.google.com/billing?project=300948139898 to enable billing. in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/example.php(47): falcon\GoogleCustomSearch->search('', 1, '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133
+[13-Sep-2019 01:37:07 CST6CDT] PHP Fatal error:  Uncaught Exception: This API requires billing to be enabled on the project. Visit https://console.developers.google.com/billing?project=300948139898 to enable billing. in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php:133
+Stack trace:
+#0 /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/expResults.php(47): falcon\GoogleCustomSearch->search('', 1, '10', Array)
+#1 {main}
+  thrown in /home/gmm78659/public_html/bmvpropertyuk.com/searchApp/rest/cSearch.php on line 133

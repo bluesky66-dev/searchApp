@@ -1,0 +1,89 @@
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+       <div class="page-header">
+        <div><a href="javascript:void(0)" ng-click="userLogout()" style="float:right">LOGOUT</a></div>
+    <h3 style="text-align:center;color:#337AB7;">{{welcome}}</h3>      
+  </div>
+      <div class="col-md-12"></div>
+            <div class="input-group" id="adv-search">                
+                <div class="input-group-btn">
+                    <div class="btn-group" role="group">
+                            <div class="col-md-8 col-centered" role="menu">
+                                <form class="form-horizontal" id = "masterSearchForm" name="masterSearchForm" ng-submit="searchGoogle()">
+                                  <div class="form-group">
+                                    <label for="contain">Search Query</label>
+                                    <input class="form-control" type="text" placeholder="Search Query" id = "query" name="query" ng-model="search.query" />
+                                  </div>
+                                 <div class="form-group">
+                                    <label for="contain">Exact Terms</label>
+                                    <input class="form-control" type="text" placeholder="Exact Terms" id = "exactTerms" name="exactTerms" ng-model="search.exactTerms" />
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="contain">Exclude Terms</label>
+                                    <input class="form-control" type="text" placeholder="Exclude Terms" id="exculdeTerms" name="exculdeTerms" ng-model="search.exculdeTerms" />
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="contain">Date Restrict</label>
+                                   <select class="form-control" type="text" placeholder="Date Restrict" id="dateRestrict" name="dateRestrict" ng-model="search.dateRestrict">
+                                        <option value="">Select Date Restrict</option>
+                                   	<option value="d1">Past Day</option>
+    					<option value="d10">Past Week</option>
+    					<option value="m1">Past Month</option>
+    					<option value="m3">Past Three Months</option>
+    					<option value="m6">Past Six Months</option>
+    					<option value="y1">Past Year</option>
+                                   </select>
+                                  </div>
+                                  <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                                </form>
+                            </div>
+                        <!--/div--->
+                        <!--button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button-->
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+	</div>
+</div>
+
+<div class="container">
+
+    <hgroup class="mb20">
+    <h1>Search Results</h1>
+    <div ng-if="fullObject" style="float:right">
+<a target="_blank" ui-sref="searchResultBasic({q:fullObject.q, exactTerms:fullObject.exactTerms, exculdeTerms:fullObject.excludeTerms, dateRestrict:fullObject.dateRestrict, pageno:fullObject.page, itemsPerPage: fullObject.perPage})" class="btn btn-default">Result Page1</a> | <a target="_blank" ui-sref="searchResultadvance({q:fullObject.q, exactTerms:fullObject.exactTerms, exculdeTerms:fullObject.excludeTerms, dateRestrict:fullObject.dateRestrict, pageno:fullObject.page, itemsPerPage: fullObject.perPage})" class="btn btn-default">Result Page2</a> | <a href="javascript:void(0);" ng-click="getdata(fullObject.page, fullObject.q, 1)" class="btn btn-default" style="color: #fff;background-color: #337ab7;">Export</a>
+  </div>
+    <h2 class="lead" ng-if="fullObject"><strong class="text-danger" ng-if="fullObject.totalResults">{{fullObject.totalResults}}</strong>
+     results were found for the search for <strong class="text-danger" ng-if="fullObject.q">Keyword: "{{fullObject.q}}"</strong>
+     <strong class="text-danger"><span ng-if="fullObject.exactTerms"> | Exact Terms : "{{fullObject.exactTerms}}"</span>
+     <span ng-if="fullObject.excludeTerms"> | Exclude Terms : "{{fullObject.excludeTerms}}"</span></strong>
+   </h2>               
+  </hgroup>
+<div class="loading" ng-show="loading"></div>
+    <section class="col-xs-12 col-sm-6 col-md-12 col-centered">
+    <article class="search-result row" ng-repeat="(key, value) in posts">
+      <div class="col-xs-12 col-sm-12 col-md-3">
+        <div ng-if="value.thumbnail">
+        <a href="{{value.link}}" title="{{value.title}}" class="thumbnail"><img ng-src="{{value.thumbnail}}" style="height: 80px" /></a>
+      </div>
+      <div ng-if="!value.thumbnail"><p style="text-align:center">Image Not available</p></div>
+      </div>
+ 
+      <div class="col-xs-12 col-sm-12 col-md-9 excerpet">
+        <h3><a href="{{value.link}}" title="{{value.title}}">{{value.title}}</a></h3>
+        <!---p><a ng-href="{{value.link}}" style="color:green">{{value.link}}</a></p--->
+        <p>{{value.snippet}}</p>            
+      </div>
+      <span class="clearfix borda"></span>
+      <hr>
+    </article> 
+  </section>
+
+    <div class="text-center">
+    <ul class="pagination">
+      <li ng-repeat="i in getNumber(number) track by $index" ng-class="{'active': $index+1 == fullObject.page}"><a ng-if="fullObject" href="javascript:void(0);" ng-click="getdata($index+1, fullObject.q, 0)">{{$index+1}}</a></li>
+    </ul>
+  </div>
+</div>
