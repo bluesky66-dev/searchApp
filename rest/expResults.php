@@ -72,7 +72,7 @@ foreach ($results->results as $key => $value) {
 
 }
 $html .= '</div>';
-$txt = preg_replace('/[\s\pZ]+/u', ' ', $html);
+$txt = stripslashes(mb_convert_encoding(preg_replace('/[\s\pZ]+/u', ' ', $html),"HTML-ENTITIES", "UTF-8"));
 file_put_contents('newfile.html', $txt);
 //fwrite($myfile, $txt);
 //fclose($myfile);
