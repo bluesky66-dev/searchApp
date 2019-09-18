@@ -48,7 +48,7 @@ $results = $search->search($q, $pageNo, $itemsPerPage, $options);
 //print "<pre>" . print_r($results, true) . "</pre>";
 
 //if($results->results != "")
-$myfile = fopen("newfile.html", "w") or die("Unable to open file!");
+//$myfile = fopen("newfile.html", "w") or die("Unable to open file!");
 $html = '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">';
 $html .= '<div style="width:1170px;margin:0 auto;">';
 $html .= '<h2 style="text-align:center;">Search Results</h2>';
@@ -72,9 +72,10 @@ foreach ($results->results as $key => $value) {
 
 }
 $html .= '</div>';
-$txt = $html;
-fwrite($myfile, $txt);
-fclose($myfile);
+$txt = preg_replace('/[\s\pZ]+/u', ' ', $html);
+file_put_contents('newfile.html', $txt);
+//fwrite($myfile, $txt);
+//fclose($myfile);
 echo "true";
 
 //}
